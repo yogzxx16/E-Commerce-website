@@ -1,6 +1,7 @@
 <div className="fade-in">
   ...
 </div>
+import luffyTee from "../assets/luffy-oversized-tee.png";
 function Hero({ onShop }) {
   return (
     <section className="bg-gray-50">
@@ -35,11 +36,12 @@ function Hero({ onShop }) {
 
         {/* Image */}
         <div className="hidden md:block">
-          <img
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
-            alt="Lifestyle products"
-            className="rounded-lg shadow"
-          />
+          <div className="hidden md:block">
+         <img
+  src={luffyTee}
+  alt="Luffy Oversized Tee"
+  className="h-116 object-cover rounded-lg"
+/>
         </div>
 
       </div>
